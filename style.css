@@ -26,8 +26,13 @@ body::before {
 }
 
 @keyframes moveBg {
-    from { transform: translateY(0); }
-    to { transform: translateY(100px); }
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(100px);
+    }
 }
 
 /* HEADER */
@@ -44,8 +49,8 @@ header h1 {
 
 /* CARDS */
 .card {
-    background: rgba(255,255,255,0.05);
-    border: 1px solid rgba(0,255,255,0.2);
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(0, 255, 255, 0.2);
     border-radius: 20px;
     padding: 25px;
     margin: 20px;
@@ -129,6 +134,7 @@ header h1 {
     from {
         text-shadow: 0 0 5px #00ffff;
     }
+
     to {
         text-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff;
     }
@@ -143,5 +149,5 @@ footer {
     margin: 30px auto;
     max-width: 800px;
     border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
